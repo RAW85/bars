@@ -1,0 +1,56 @@
+.container {
+    height: 60vh;
+    margin: 50px 5%;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    transform:rotate(180deg);
+}
+
+.color-block {
+    width: 100%;
+    transition: height 1s;
+}
+.cb1 {
+    background-color: blueviolet;
+}
+.cb2 {
+    background-color: deeppink;
+}
+.cb3 {
+    background-color: pink;
+}
+.cb4 {
+    background-color: orange;
+}
+.cb5 {
+    background-color: yellow;
+}
+
+.button-container {
+    margin: 0 5%;
+    align-items: center;
+    text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.b-start {
+    background-color: green;
+}
+.b-reset {
+    background-color: blueviolet;
+    margin: 0 100px;
+}
+.b-stop {
+    background-color: red;
+}
